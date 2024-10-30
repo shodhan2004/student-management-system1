@@ -88,7 +88,6 @@ void addStudent() {
     students[studentCount++] = newStudent;
     printf("Student added successfully!\n");
 }
-
 void viewAllStudents() {
     if (studentCount == 0) {
         printf("No students available to display.\n");
